@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Server Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Server Management Control Panel</h1>
+        <p class="subtitle">Verwalte deinen Minecraft Server und überwache die Ports</p>
+        
+        <div class="card-grid">
+            <div class="card">
+                <div class="icon">🎮</div>
+                <h2>Server Interface</h2>
+                <p>Erstelle und verwalte deine eigenen Minecraft-Instanzen.</p>
+                <a href="http://79.206.61.150:8080/auth/login" target="_blank" class="btn">Zum Login</a>
+            </div>
+
+            <div class="card">
+                <div class="icon">🔍</div>
+                <h2>Port Monitor</h2>
+                <p>Überprüfe den Status der offenen Ports und Netzwerk-Sicherheit.</p>
+                <a href="http://79.206.61.150:8081" target="_blank" class="btn secondary">Ports checken</a>
+            </div>
+        </div>
+
+        <div id="status-bar">
+            System bereit <span class="dot"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
